@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event bubbling</title>
+    <style>
+        .container{
+            background-color: yellowgreen;
+            padding: 40px;
+        }
+        .childContainer{
+            background-color: yellow;
+            padding: 50px;
+        }
+        .child{
+            background-color: rgb(164, 186, 219);
+            padding: 23px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="childContainer">
+            <div class="child">
+                I am child
+            </div>
+        </div>
+    </div>
+    <script src="Event bubbling.js"></script>
+</body>
+</html>

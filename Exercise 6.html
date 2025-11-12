@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6</title>
+    <style>
+        body {
+            background-color: rgb(3, 3, 3);
+        }
+
+        .logo {
+            width: 40px;
+            height: 40px;
+            background-color: black;
+            border-radius: 40px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+
+        }
+
+        .logo img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .right ul {
+            display: flex;
+            gap: 25px;
+        }
+
+        .right ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            font-family: 'Segoe UI';
+            cursor: pointer;
+
+        }
+
+        .right img {
+            width: 20px;
+            padding: 0px 5px;
+        }
+
+        /* ul li::after{
+            content: "";
+            position: absolute;
+            height: 2px;
+            width: 0px;
+            top: 8%;
+            left: 20%;
+            background: rgb(189, 189, 189);
+            transition: all ease-in-out 300ms;
+
+        }
+        ul li:hover:after{
+            width: 20%;
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="bmw.logo.png" alt="">
+            </div>
+            <div class="right">
+                <ul>
+                    <li>Products <img src="down.arrow.png" alt=""></li>
+                    <li>Price <img src="down.arrow.png" alt=""></li>
+                    <li>Services <img src="down.arrow.png" alt=""></li>
+                    <li>Help <img src="down.arrow.png" alt=""></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+</body>
+
+</html>

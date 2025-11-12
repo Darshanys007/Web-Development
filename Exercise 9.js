@@ -1,0 +1,13 @@
+let a = prompt("Enter first number")
+let b = prompt("Enter Expression here")
+let c = prompt("Enter third number")
+if (b == "+")
+    console.log(a - c)
+else if (b == "-")
+    console.log (parseInt(a) + parseInt(c))
+else if (b == "*")
+    console.log(a / c)
+else if (b == "/")
+    console.log(a * c)
+else
+    console.log("Please enter correct expression")

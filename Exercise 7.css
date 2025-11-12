@@ -1,0 +1,155 @@
+body {
+    background-color: rgb(3, 3, 3);
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 40px;
+    margin: 0px 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.right ul {
+    display: flex;
+    gap: 25px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI';
+    cursor: pointer;
+
+}
+
+.right img {
+    width: 20px;
+    padding: 0px 5px;
+}
+
+.first span {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.BMWinfo {
+    font-size: 16px;
+    max-width: 260px;
+    margin: 0px 310px;
+    font-family: system-ui;
+    color: aliceblue;
+}
+
+.click-button button {
+    margin: 15px 308px;
+    border-radius: 16px;
+    padding: 8px 12px;
+    background-color: rgb(39 63 131 / 63%);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.click-button button:hover {
+    cursor: pointer;
+    background-color: rgb(6, 6, 37);
+}
+
+.car-photo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 145px;
+    right: 420px;
+    filter: drop-shadow(0 0 6px hsl(240, 51%, 16%));
+}
+
+.flex {
+    display: flex;
+}
+
+.second {
+    padding: 10px;
+    max-width: 60vw;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.cars span {
+    display: flex;
+    font-family: system-ui;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    justify-content: center;
+    padding: 10px;
+}
+
+.item {
+    padding: 46px;
+    background-color: rgba(27, 26, 26, 0.623);
+    border-radius: 12px;
+}
+
+.item-image {
+    padding: 32px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.deg {
+    color: rgb(214, 203, 203);
+    background-color: rgba(57, 60, 236, 0.562);
+    padding: 10px 24px;
+    border-radius: 16px;
+    border: none;
+    margin: 0px 6px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.more {
+    color: rgb(214, 203, 203);
+    background-color: rgba(57, 60, 236, 0.562);
+    padding: 10px 24px;
+    border-radius: 16px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.deg:hover{
+    cursor: pointer;
+    background-color: rgb(91, 91, 117);
+
+}
+.more:hover{
+    cursor: pointer;
+    background-color: rgb(91, 91, 117);
+
+}
+.grid-part {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
